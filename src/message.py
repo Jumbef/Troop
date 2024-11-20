@@ -14,10 +14,10 @@ import inspect
 import json
 
 def escape_chars(s):
-    return s.replace(">", "\>").replace("<", "\<")
+    return s.replace(r">", r"\>").replace(r"<", r"\<")
 
 def unescape_chars(s):
-    return s.replace("\>", ">").replace("\<", "<")
+    return s.replace(r"\>", r">").replace(r"\<", r"<")
 
 class NetworkMessageReader:
     def __init__(self):
