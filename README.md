@@ -1,3 +1,9 @@
+## About this fork
+
+This fork was made to quickly fix an incompatibility with Python 3.11 (the default Python version of Debian 12 "Bookworm")
+
+The following is the original README from (https://github.com/Qirky/Troop)
+
 # Troop v0.10.3
 
 ## Real-time collaborative live coding
